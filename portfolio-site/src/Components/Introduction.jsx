@@ -12,6 +12,8 @@ function Introduction() {
                 <p>I'm an aspiring Full-Stack Developer working towards 
                     completing my Bachelor's of Science in Computer Science. I'm currently
                     focusing on developing my skills with Front-End Technology; HTML, CSS, JavaScript, React.</p>
+                <button>LinkedIn</button>
+                <button>Resume</button>
 
             </div>
             <div id='Image-Container'>
