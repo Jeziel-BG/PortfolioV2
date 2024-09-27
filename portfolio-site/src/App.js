@@ -1,5 +1,7 @@
 
 import './App.css';
+import { Introduction } from "./Components/Introduction/Introduction";
+
 
 function App() {
   return (
@@ -7,9 +9,13 @@ function App() {
       <div id='Nav-Bar'>
         <h1>Nav-Bar</h1>
       </div>
-      <div id='Introduction'>
-        <h1>Test Intro</h1>
+      
+
+      <div ref={Introduction} className="Introduction">
+        <Introduction />
       </div>
+
+
       <div id='Projects'>
         <h1>Test projects</h1>
       </div>
