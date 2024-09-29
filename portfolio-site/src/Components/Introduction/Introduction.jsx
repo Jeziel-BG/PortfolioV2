@@ -4,16 +4,20 @@ export function Introduction() {
     return(
         <div id='Intro-Main'>
             <div id='Text-Container'>
-                <h1>
+                <h1 id='Top-Header'>
                     <span>Hi, my name is Jeziel</span>
+                </h1>
+                <h1 id='Bottom-Header'>
                     <span>Full-Stack Developer</span>
                 </h1>
                 
+                <div id='Description'>
                 <p>I'm an aspiring Full-Stack Developer working towards 
-                    completing my Bachelor's of Science in Computer Science. I'm currently
-                    focusing on developing my skills with Front-End Technology; HTML, CSS, JavaScript, React.</p>
+                    completing my Bachelor's of Science in Computer Science 
+                    at the University of Arizona</p>
+                </div>
                 
-                <div>
+                <div id='Buttons'>
                     <button className="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/jeziel-banos-02514b237/', '_blank')}>
                     <img src='/images/LinkedIn_logo_initials.png' className="linkin-logo"></img>
                     LinkedIn</button>
@@ -26,7 +30,7 @@ export function Introduction() {
 
             </div>
             <div id='Image-Container'>
-                <img src='./../../../public/headshot.jpg' alt='Headshot photo of Jeziel'></img>
+                <img src='/images/headshot.jpg' alt='Headshot photo of Jeziel' id='HeadShot'></img>
             </div>
         </div>
 
