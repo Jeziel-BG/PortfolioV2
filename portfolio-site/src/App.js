@@ -10,6 +10,7 @@ function App() {
       
 
       <Introduction />
+      <div id='Intro-Proj-Gradient'></div>
       <Projects />
 
       
