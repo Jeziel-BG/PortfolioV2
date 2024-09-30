@@ -9,7 +9,7 @@ export function Introduction() {
                         <span>Hi, I'm Jeziel Banos Gonzalez</span>
                     </h1>
                     <h1 id='Bottom-Header'>
-                        <span>Full-Stack Developer</span>
+                        <span id='Typewriter'>Full-Stack Developer</span>
                     </h1>
                     
                     <div id='Description'>

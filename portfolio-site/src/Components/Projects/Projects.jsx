@@ -3,6 +3,9 @@ import "./Projects.css"
 export function Projects(){
     return(
         <div id="Projects-Main">
+            <div id="Section-Header">
+                <h1>Projects</h1>
+            </div>
             <div id="Grid">
 
                 <div className="project-folder">
@@ -21,6 +24,8 @@ export function Projects(){
                     <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/Sentiment_Analysis', "_blank")}>View GitHub</button>
                 </div>
 
+
+
                 <div className="project-folder"> 
                     <div className="icon">
                         <img className="icon-image" src="/images/java-logo.png"></img>
@@ -36,6 +41,8 @@ export function Projects(){
                     <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/Mock-Pizzeria-DBMS', "_blank")}>View GitHub</button>
                 </div>
 
+            
+
                 <div className="project-folder"> 
                     <div className="icon">
                         <img className="icon-image" src="/images/react-logo.png"></img>
@@ -43,14 +50,14 @@ export function Projects(){
                     <h1 className="project-title">Portfolio Website</h1>
                     <div id="description">
                         <p className="project-description">
-                            A portfolio website made using React that introduces who I am and the 
-                            projects that I've worked on.
+                            A portfolio website developed using HTML5, CSS, React Native, and JavaScript.
+                            Contains an introduction, project showcase, education, skills, and contact form section.
                         </p>
                     </div>
                     <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/portfolio', "_blank")}>View GitHub</button>
                 </div>
 
-                
+            
 
             </div>
 

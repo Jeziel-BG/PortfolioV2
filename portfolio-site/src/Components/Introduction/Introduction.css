@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #022333;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     animation: animate 7s;
 
@@ -13,7 +13,7 @@
     justify-content: center;
     color: #E7ECEF;
     position: absolute;
-    top: 20%;
+    top: 30%;
 
 }
 
@@ -88,5 +88,3 @@ div > p{
 
 }
   
-
-
