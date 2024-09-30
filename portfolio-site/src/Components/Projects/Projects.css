@@ -1,0 +1,44 @@
+#Projects-Main{
+    background-color: #00B4D8;
+}
+
+.project-folder{
+    background: linear-gradient(to bottom, #475c7a, #474040);
+    color: white;
+    width: clamp(10vw,20vw,20vw);
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+p{
+    text-align: left;
+}
+
+#description{
+    justify-content: center;
+    display: flex;
+}
+
+.icon{
+    position: relative;
+    width: 30%;
+    height: auto;
+    background-color: #284570;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 2%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #423f3f;
+    margin-left: 35%;
+    margin-right: 35%;
+    transition: 1s;
+
+}
+.icon-image{
+    width: clamp(1vw,3vw,3vw);
+}
