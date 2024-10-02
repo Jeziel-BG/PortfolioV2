@@ -1,0 +1,36 @@
+#Skills-Main{
+    background-color: #031620;
+
+}
+
+#Header-Content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Section-Header{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: clamp(30px, 1vw, 5vw);
+    text-align: center;
+    color: white;
+    padding-top: 10vh;
+}
+
+#Section-Subtext{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+#Inner-Scroller{
+    display: flex;
+}
+
+#Inner-Scroller > li > img{
+    width: 10vw;
+}
+

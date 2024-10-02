@@ -1,8 +1,10 @@
 import "./Projects.css"
 
+//NOTICE PROJECTS IN GITHUB ARE CURRENTLY PRIVATE,REMEMBER TO MAKE PUBLIC LATER
 export function Projects(){
     return(
         <div id="Projects-Main">
+            <div id="all">
             <div id="Section-Header">
                 <h1>Projects</h1>
             </div>
@@ -55,6 +57,7 @@ export function Projects(){
                         </p>
                     </div>
                     <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/portfolio', "_blank")}>View GitHub</button>
+                </div>
                 </div>
 
             

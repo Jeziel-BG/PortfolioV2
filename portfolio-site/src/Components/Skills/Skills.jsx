@@ -1,8 +1,13 @@
 import "./Skills.css";
 
-function Skills(){
+export function Skills(){
     return(
         <div id="Skills-Main">
+            <div id="Header-Content">
+                <h1 id="Section-Header">Skills & Technology</h1>
+                <span id="Section-Subtext">All challenges are solvable with the right tools. Here are the tools I commonly use.</span>
+            </div>
+            
             <div id="Outer-Scroller">
 
                 <ul id="Inner-Scroller">
@@ -22,5 +27,3 @@ function Skills(){
         </div>
     )
 }
-
-export default Skills;

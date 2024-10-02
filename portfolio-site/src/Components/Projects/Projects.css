@@ -1,7 +1,15 @@
 #Projects-Main{
     background-color: #031620;
+    background-image: url("../../../public/images/codeBackground.jpg");
+    
+}
+
+#all{
+    backdrop-filter: blur(9px);
+    height: 100%;
     padding-bottom: 10vh;
 }
+
 
 #Section-Header{
     font-family: "Source Sans Pro", sans-serif;
@@ -16,6 +24,7 @@
     
 }
 
+
 #Grid{
     display: flex;
     justify-content: center;
@@ -27,7 +36,7 @@
     background: linear-gradient(to bottom, #475c7a, #474040);
     color: white;
     width: clamp(300px,20vw,20vw);
-    height: clamp(300px,50vh,50vh);
+    height: fit-content;
     border-radius: 50px;
     justify-content: center;
     text-align: center;
