@@ -20,7 +20,7 @@
 
 
 #Image-Container{
-    width: 30%;
+    width: fit-content;
     
 }
 
@@ -45,20 +45,22 @@
 }
 
 #Text-Container{
-    width: 40%;
-    margin-right: -4vw;
+    width: 50%;
+    margin-right: -1vw;
 }
 
 #Text-Container > h1{
-    font-size: clamp(1.5vw, 2vw, 5vw);
-    font-family:"Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
-    margin-bottom: -1vw;
-
-    
-    
-
+    color: white;
+    margin-bottom: -1vw;    
 }
+
+#Text-Container > h1 > span{
+    font-size: clamp(30px, 3vw, 5vw);
+}
+
+
 div > p{
     width: min(60vw, 70%);
     font-size: clamp(0.5vw, 1.2vw, 1.5vw);

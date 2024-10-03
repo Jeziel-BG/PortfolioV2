@@ -1,5 +1,5 @@
 #Skills-Main{
-    background-color: #031620;
+    background-color: #1b1d1f;
 
 }
 
@@ -23,14 +23,49 @@
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     color: white;
+    margin-bottom: 4vh;
     
 }
 
-#Inner-Scroller{
+#List-Container{
+    justify-content: center;
+    padding-bottom: 4vh;
+}
+#List{
+    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-#Inner-Scroller > li > img{
+#List >li{
+    background: linear-gradient(to bottom, #475c7a, #474040);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2vw;
+    margin: 2vw;
+
+}
+
+#List > li > img{
+    height: 10vw;
     width: 10vw;
+    padding: 1vw;
 }
 
+@keyframes yellow {
+    
+}
+
+@keyframes blue {
+    
+}
+
+@keyframes green {
+    
+}
+
+@keyframes red {
+    
+}
