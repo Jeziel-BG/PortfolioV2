@@ -31,7 +31,7 @@
     justify-content: center;
     padding-bottom: 4vh;
 }
-#List{
+#List1, #List2{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
 }
 
-#List >li{
+#List1 >li{
     background: linear-gradient(to bottom, #475c7a, #474040);
     height: fit-content;
     width: fit-content;
@@ -48,7 +48,22 @@
 
 }
 
-#List > li > img{
+#List1 > li > img{
+    height: 10vw;
+    width: 10vw;
+    padding: 1vw;
+}
+
+#List2 >li{
+    background: linear-gradient(to bottom, #475c7a, #474040);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2vw;
+    margin: 2vw;
+
+}
+
+#List2 > li > img{
     height: 10vw;
     width: 10vw;
     padding: 1vw;
