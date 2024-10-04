@@ -1,3 +1,7 @@
+:root {
+    --blobSize: 12vw;
+  }
+
 #Skills-Main{
     background-color: #1b1d1f;
     width: 100%;
@@ -77,6 +81,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
 }
 
 #Blob-Container{
@@ -87,25 +93,144 @@
 }
 
 .Blob{
-    border-radius: 48% 52% 43% 77% / 63% 28% 72% 37%
-}
-
-.Yellow{
-    transform: translate(10%,10%);
-}
-
-@keyframes yellow {
+    
+        width: 25vmin;
+        height: 25vmin;
+        background: #f09;
+        position: absolute;
+        /*box-shadow: -10vmin 10vmin 0 rgba(255,255,255,0.07); <-- still deciding if to include*/
+        
+        
     
 }
 
-@keyframes blue {
-    
+#Yellow-Blue{
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    background-image: linear-gradient(45deg, #e8eb29 0%, rgb(0, 191, 255) 100%);
+    transform: translate(20vw,20vh);
+    animation: Yellow-Blue-Morph 10s linear infinite alternate;
+
 }
 
-@keyframes green {
-    
+#Orange-Blue{
+    border-radius: 66% 34% 70% 30% / 40% 30% 70% 60% ;
+    background-image: linear-gradient(45deg, #e8a94a 0%, rgb(0, 208, 255) 100%);
+    transform: translate(60vw,60vh);
+    animation: Orange-Blue-Morph 10s linear infinite alternate;
 }
 
-@keyframes red {
-    
+#Red-Blue{
+    border-radius: 84% 16% 59% 41% / 21% 80% 20% 79% ;
+    background-image: linear-gradient(45deg, #ae2323 0%, rgb(0, 166, 255) 100%);
+    transform: translate(40vw,40vh);
+    animation: Red-Blue-Morph 10s linear infinite alternate;
+
+}
+
+#Blue-Yellow{
+    border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
+    background-image: linear-gradient(45deg, #3023AE 0%, rgb(197, 218, 34) 100%);
+    transform: translate(10vw,70vh);
+}
+
+#Blue-Orange{
+    border-radius: 66% 34% 51% 49% / 70% 46% 54% 30% ;
+    background-image: linear-gradient(45deg, #3023AE 0%, rgb(211, 119, 27) 100%);
+    transform: translate(80vw,20vh);
+}
+
+#Blue-Red{
+    border-radius: 11% 89% 35% 65% / 43% 65% 35% 57% ;
+    background-image: linear-gradient(45deg, #3023AE 0%, rgb(255, 0, 17) 100%);
+    transform: translate(0vw,40vh);
+}
+
+@keyframes Yellow-Blue-Morph {
+    0%{
+        border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    }
+
+    17%{
+        border-radius: 66% 34% 70% 30% / 40% 30% 70% 60% ;
+    }
+
+    34%{
+        border-radius: 84% 16% 59% 41% / 21% 80% 20% 79% ;
+    }
+
+    51%{
+        border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
+    }
+
+    68%{
+        border-radius: 66% 34% 51% 49% / 70% 46% 54% 30% ;
+    }
+
+    85%{
+        border-radius: 11% 89% 35% 65% / 43% 65% 35% 57% ;
+    }
+
+    100%{
+        border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    }
+}
+
+@keyframes Orange-Blue-Morph {
+    0%{
+        border-radius: 66% 34% 70% 30% / 40% 30% 70% 60%;
+    }
+
+    17%{
+        border-radius: 84% 16% 59% 41% / 21% 80% 20% 79% ;
+    }
+
+    34%{
+        border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
+    }
+
+    51%{
+        border-radius: 66% 34% 51% 49% / 70% 46% 54% 30% ;
+    }
+
+    68%{
+        border-radius: 11% 89% 35% 65% / 43% 65% 35% 57% ;
+    }
+
+    85%{
+        border-radius:  40% 60% 60% 40% / 70% 30% 70% 30%;
+    }
+
+    100%{
+        border-radius: 66% 34% 70% 30% / 40% 30% 70% 60%;
+    }
+}
+
+@keyframes Red-Blue-Morph {
+    0%{
+        border-radius: 84% 16% 59% 41% / 21% 80% 20% 79%;
+    }
+
+    17%{
+        border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
+    }
+
+    34%{
+        border-radius: 66% 34% 51% 49% / 70% 46% 54% 30% ;
+    }
+
+    51%{
+        border-radius: 11% 89% 35% 65% / 43% 65% 35% 57% ;
+    }
+
+    68%{
+        border-radius:  40% 60% 60% 40% / 70% 30% 70% 30%;
+    }
+
+    85%{
+        border-radius: 66% 34% 70% 30% / 40% 30% 70% 60%;
+    }
+
+    100%{
+        border-radius: 84% 16% 59% 41% / 21% 80% 20% 79%;
+    }
 }

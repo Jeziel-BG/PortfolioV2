@@ -28,12 +28,24 @@ export function Skills(){
                 </div>
             </div>
 
-            <svg id="Blob-Container">
-                <rect width="10vw" height="10vw" x="10" y="10" rx="20" ry="20" fill="blue" className="Blob Blue"/>
-                <rect width="10vw" height="10vw" x="10" y="10" rx="20" ry="20" fill="red" className="Blob Red"/>
-                <rect width="10vw" height="10vw" x="10" y="10" rx="20" ry="20" fill="yellow" className="Blob Yellow"/>
-                <rect width="10vw" height="10vw" x="10" y="10" rx="20" ry="20" fill="green" className="Blob Green"/>
-            </svg>
+            <div id="Blob-Container">
+
+                <div className="Blob" id="Yellow-Blue"></div>
+
+                <div className="Blob" id="Orange-Blue"></div>
+
+                <div className="Blob" id="Red-Blue"></div>
+
+                <div className="Blob" id="Blue-Yellow"></div>
+
+                <div className="Blob" id="Blue-Orange"></div>
+
+                <div className="Blob" id="Blue-Red"></div>
+
+                
+
+  
+            </div>
             
         </div>
     )
