@@ -1,6 +1,8 @@
 #Skills-Main{
     background-color: #1b1d1f;
-
+    width: 100%;
+    height: 100vh;
+    
 }
 
 #Header-Content{
@@ -67,6 +69,29 @@
     height: 10vw;
     width: 10vw;
     padding: 1vw;
+}
+#Content-Container{
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#Blob-Container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.Blob{
+    border-radius: 48% 52% 43% 77% / 63% 28% 72% 37%
+}
+
+.Yellow{
+    transform: translate(10%,10%);
 }
 
 @keyframes yellow {
