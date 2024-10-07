@@ -4,15 +4,76 @@
     height: 100vh;
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 #Contact-Form{
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 40vw;
     background: linear-gradient(to bottom,#4ae6e6, #729bd5);
-    height: 50vh;
+    height: 70vh;
     font-family: "Source Sans Pro", sans-serif;
+    justify-content: center;
+    border-radius: 2vw;
+    font-size: clamp(20px, 1vw, 1.5vw);
+    font-weight: bold;
+    row-gap: 3vh;
+}
+
+#Contact-Form > div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:1vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+#Contact-Form > div >input{
+    width: 50%;
+    height: 2vh;
+    border-radius: .5vw;
+    border: transparent;
+    padding: .5vh;
+    font-size: clamp(10px, 0.6vw, 1.5vw);
+
+}
+#Contact-Form > div >label{
+    width: 50%;
+    height: 2vh;
+    border-radius: .5vw;
+    border: transparent;
+    padding: .5vh;
+}
+
+#Contact-Form > div >textarea{
+    width: 50%;
+    height: 20vh;
+    border-radius: .5vw;
+    padding: .5vh;
+    resize: none;
+    border: transparent;
+    font-size: clamp(10px, 0.6vw, 1.5vw);
+
+}
+#SendButton{
+    width: 6vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    border: transparent;
+    margin-left: 25%;
+    font-size: clamp(10px, 0.6vw, 1.5vw);
+    font-weight: bold;
+
+}
+
+#SendButton:hover{
+    
+    background-color: #48CAE4;
+    color: black;
+    box-shadow: 0px 0px 10px 2px #a0e1d9;
 
 }

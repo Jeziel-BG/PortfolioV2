@@ -4,17 +4,32 @@ export function Contact(){
     return(
         <div id='Contact-Main'>
 
-            <form id='Contact-Form' method='post'>
-                <label for='senderName'>Full Name:</label>
-                <input type='text' id='senderName' name='senderName' placeholder='John Doe'></input>
-                <label for='senderEmail'>Email Address:</label>
-                <input type='email' id='senderEmail' name='senderEmail' placeholder='example@gmail.com'></input>
-                <label for='subjectLine'>Subject Line:</label>
-                <input type='text' id='subjectLine' name='subjectLine' placeholder='Your subject'></input>
-                <label for='message'>Email Message:</label>
-                <textarea id='message' name='message' placeholder='Your email message.'></textarea>
+            <div id="Header-Content">
+                <h1 id="Section-Header">Contact</h1>
+                <span id="Section-Subtext">Need to contact me? Use the form below or email me at Jezielbgon@gmail.com.</span>
+            </div>
 
-                <input type="submit" value="Submit"></input>
+            <form id='Contact-Form' method='post'>
+                <div id="name">
+                    <label for='senderName'>Full Name:</label>
+                    <input type='text' id='senderName' className='senderName' placeholder='John Doe'></input>
+                </div>
+
+                <div>
+                    <label for='senderEmail'>Email Address:</label>
+                    <input type='email' id='senderEmail' className='senderEmail' placeholder='example@gmail.com'></input>
+                </div>
+                
+                <div>
+                    <label for='subjectLine'>Subject Line:</label>
+                    <input type='text' id='subjectLine' className='subjectLine' placeholder='Your subject'></input>
+                </div>
+
+                <div>
+                    <label for='message'>Email Message:</label>
+                    <textarea id='message' className='message' placeholder='Your email message.'></textarea>
+                </div>
+                <input type="submit" value="Send" id="SendButton"></input>
             </form>
 
 
