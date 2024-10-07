@@ -4,11 +4,11 @@ function NavBar(){
     return(
         <div id='NavBar-Main'>
             <ul>
-                <li class='Nav-Element'>Introduction</li>
-                <li class='Nav-Element'>Projects</li>
-                <li class='Nav-Element'>Skills</li>
-                <li class='Nav-Element'>Education</li>
-                <li class='Nav-Element'>Contact</li>
+                <li class='Nav-Element'> <button></button></li>
+                <li class='Nav-Element'><button></button></li>
+                <li class='Nav-Element'><button></button></li>
+                <li class='Nav-Element'><button></button></li>
+                <li class='Nav-Element'><button></button></li>
             </ul>
 
 
