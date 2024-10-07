@@ -19,7 +19,7 @@ export function Introduction() {
                     </div>
                     
                     <div id='Buttons'>
-                        <button className="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/jeziel-banos-02514b237/', '_blank')}>
+                        <button className="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/jeziel-banos-gonzalez/', '_blank')}>
                         LinkedIn</button>
                         
                         <button className="Resume" onClick={() => window.open('/documents/Resume-Jeziel_Banos_Gonzalez.pdf')}>

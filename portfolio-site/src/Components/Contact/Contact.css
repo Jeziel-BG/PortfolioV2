@@ -1,0 +1,18 @@
+#Contact-Main{
+    background: #022333;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+
+}
+
+#Contact-Form{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    background: linear-gradient(to bottom,#4ae6e6, #729bd5);
+    height: 50vh;
+    font-family: "Source Sans Pro", sans-serif;
+
+}

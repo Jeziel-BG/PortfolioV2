@@ -3,6 +3,8 @@ import './App.css';
 import { Introduction } from "./Components/Introduction/Introduction";
 import { Projects } from './Components/Projects/Projects';
 import { Skills } from "./Components/Skills/Skills";
+import { Education } from './Components/Education/Education';
+import { Contact } from './Components/Contact/Contact';
 
 
 function App() {
@@ -11,10 +13,10 @@ function App() {
       
 
       <Introduction />
-      <div id='Intro-Proj-Gradient'></div>
       <Projects />
-      <div id='Proj-Skills-Gradient'></div>
       <Skills />
+      <Education />
+      <Contact />
 
       
     </div>

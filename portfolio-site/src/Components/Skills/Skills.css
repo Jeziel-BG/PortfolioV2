@@ -19,17 +19,18 @@
 #Section-Header{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
-    font-size: clamp(30px, 1vw, 5vw);
+    font-size: clamp(50px, 2.5vw, 7vw);
     text-align: center;
     color: white;
     padding-top: 10vh;
 }
 
 #Section-Subtext{
-    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     color: white;
     margin-bottom: 4vh;
+    font-size: clamp(20px, 1vw, 1.5vw);
+    font-family: "Source Sans Pro", sans-serif;
     
 }
 
@@ -51,6 +52,12 @@
     width: fit-content;
     border-radius: 2vw;
     margin: 2vw;
+    transition: 2.5s;
+
+}
+
+#List1 >li:hover{
+    background: linear-gradient(to bottom, rgb(112, 186, 231), rgb(121, 142, 219));
 
 }
 
@@ -68,12 +75,20 @@
     margin: 2vw;
 
 }
+#List2 >li:hover{
+    background: linear-gradient(to bottom, rgb(112, 186, 231), rgb(121, 142, 219));
+
+}
+
+
 
 #List2 > li > img{
     height: 10vw;
     width: 10vw;
     padding: 1vw;
 }
+
+
 #Content-Container{
     z-index: 1;
     position: absolute;
@@ -90,6 +105,8 @@
     height: 100%;
     position: absolute;
     z-index: 0;
+    overflow: hidden
+    ;
 }
 
 .Blob{
@@ -107,14 +124,17 @@
 #Yellow-Blue{
     border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
     background-image: linear-gradient(45deg, #e8eb29 0%, rgb(0, 191, 255) 100%);
-    transform: translate(20vw,20vh);
-    animation: Yellow-Blue-Morph 10s linear infinite alternate;
+    animation: Yellow-Blue-Morph 10s linear infinite normal;
+    width: 50vmin;
+    height: 50vmin;
+    transform: translate(30vw,35vh);
+
 
 }
 
 #Orange-Blue{
     border-radius: 66% 34% 70% 30% / 40% 30% 70% 60% ;
-    background-image: linear-gradient(45deg, #e8a94a 0%, rgb(0, 208, 255) 100%);
+    background-image: linear-gradient(45deg, rgb(0, 208, 255) 0%,#e8a94a 100%);
     transform: translate(60vw,60vh);
     animation: Orange-Blue-Morph 10s linear infinite alternate;
 }
@@ -130,8 +150,10 @@
 #Blue-Yellow{
     border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
     background-image: linear-gradient(45deg, #3023AE 0%, rgb(197, 218, 34) 100%);
-    transform: translate(10vw,70vh);
+    transform: translate(-15vw,-5vh);
     animation: Blue-Yellow-Morph 10s linear infinite alternate;
+    width: 55vmin;
+    height: 110vmin;
 }
 
 #Blue-Orange{
@@ -151,30 +173,40 @@
 @keyframes Yellow-Blue-Morph {
     0%{
         border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+        
     }
 
     17%{
         border-radius: 66% 34% 70% 30% / 40% 30% 70% 60% ;
+        
     }
 
     34%{
         border-radius: 84% 16% 59% 41% / 21% 80% 20% 79% ;
+        
+        
     }
 
     51%{
         border-radius: 43% 57% 86% 14% / 42% 46% 54% 58% ;
+        
+        
     }
 
     68%{
         border-radius: 66% 34% 51% 49% / 70% 46% 54% 30% ;
+        
+        
     }
 
     85%{
         border-radius: 11% 89% 35% 65% / 43% 65% 35% 57% ;
+        
     }
 
     100%{
         border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+        
     }
 }
 

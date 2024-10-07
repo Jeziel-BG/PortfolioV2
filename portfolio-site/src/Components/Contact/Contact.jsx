@@ -1,6 +1,6 @@
-import 'Contact.css';
+import './Contact.css';
 
-function Contact(){
+export function Contact(){
     return(
         <div id='Contact-Main'>
 
@@ -23,4 +23,3 @@ function Contact(){
     )
 }
 
-export default Contact;

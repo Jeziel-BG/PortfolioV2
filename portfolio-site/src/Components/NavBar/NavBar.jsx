@@ -4,7 +4,7 @@ function NavBar(){
     return(
         <div id='NavBar-Main'>
             <ul>
-                <li class='Nav-Element'>Home</li>
+                <li class='Nav-Element'>Introduction</li>
                 <li class='Nav-Element'>Projects</li>
                 <li class='Nav-Element'>Skills</li>
                 <li class='Nav-Element'>Education</li>

@@ -1,21 +1,36 @@
 import "./Education.css";
 
-function Education(){
+export function Education(){
     return(
         <div id="Education-Main">
-            <h1>Education</h1>
+            <h1 id="Education-Header">Education</h1>
+            
 
-            <div id="Education-Info-Holder">
+            <div id="Education-Container">
+                <div id="Education-Stats">
+                    <span className="">Bachelor's of Science in Computer Science</span>
+                    <ul id="Stats">
+                        <li>University: University of Arizona</li>
+                        <li>GPA: 3.87 /4.0</li>
+                        <li>Graduation Date: May 2025</li>
+                        <li>Minors: Information Science & Arts, Spanish</li>
+                    </ul>
+                </div>
 
-                <h2>Bachelor of Science in Computer Science</h2>
-
-                <span>University of Arizona</span>
-                <span>Expected Graduation Date: May 2025</span>
-                <span>GPA:3.87/4.00</span>
-                <button>Unofficial Transcript</button>
+                <div id="Relevent-Course-Container">
+                    <span>Relevent Coursework</span>
+                    <ul id="Coursework">
+                        <li>Software Development</li>
+                        <li>Object Orientated Programming and Design</li>
+                        <li>Database Design</li>
+                        <li>Data Visualization</li>
+                        <li>Web Programming</li>
+                        <li>Intro Web Design & Development</li>
+                        <li>Systems Programming and Unix</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Education;
