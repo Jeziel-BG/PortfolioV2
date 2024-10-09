@@ -1,11 +1,18 @@
 #Education-Main{
     color: white;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 100vh;
+    background-image: url("../../../public/images/CompSciBG.jpg");
+    background-position: 60% 30%;
     
+}
+#Education-Content{
+    backdrop-filter: blur(15px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #Education-Header{
@@ -13,7 +20,7 @@
     font-weight: bold;
     font-size: clamp(50px, 2.5vw, 7vw);
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #Education-Container{
@@ -21,12 +28,12 @@
     display: flex;
     justify-content: center;
     gap: 3vw;
-    background: linear-gradient(to bottom,#4ae6e6, #729bd5);
+    background: linear-gradient(to bottom, #475c7a, #474040);
     padding-top: 5vh;
     padding-bottom: 5vh;
     width: 75%;
     border-radius: 3vw;
-    color: black;
+    color: white;
 }
 
 #Education-Container span{

@@ -33,6 +33,11 @@ export function Contact(){
             </form>
 
 
+            <svg>
+                <rect />
+            </svg>
+
+
         </div>
 
     )
