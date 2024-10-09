@@ -33,8 +33,8 @@ export function Contact(){
             </form>
 
 
-            <svg>
-                <rect />
+            <svg id="Background-Squares">
+                <rect width="10" height="10"  x="10" y="10" fill="white"/>
             </svg>
 
 
