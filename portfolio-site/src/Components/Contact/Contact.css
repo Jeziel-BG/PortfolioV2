@@ -6,8 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 5vh;
-
 }
 
 #Contact-Form{
@@ -24,6 +22,8 @@
     row-gap: 3vh;
     padding-bottom: 2vh;
     padding-top: 2vh;
+    margin-left:30vw;
+    margin-bottom: 10vh;
 }
 
 #Contact-Form > div{
@@ -62,6 +62,7 @@
     font-size: clamp(10px, 0.6vw, 1.5vw);
 
 }
+
 #SendButton{
     width: 6vw;
     padding: 0.5vw;
@@ -81,10 +82,36 @@
 
 }
 
-#Background-Squares{
-    width: 100%;
-    height: 100vh;
+
+#Blob-Container-Contact{
+    width: 100vw;
+    height: 100vh ;
     position: absolute;
     z-index: 0;
     overflow: hidden;
+}
+
+#Cyan-Green{
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    background-image: linear-gradient(45deg, #29ebd1 30%, rgb(0, 255, 81) 100%);
+    animation: Yellow-Blue-Morph 20s linear infinite normal;
+    width: 60vmin;
+    height: 60vmin;
+    transform: translate(0vw,15vh);
+}
+
+#Orange-Yellow{
+    background-image: linear-gradient(45deg, #ecd493 25%, #efea66 100%);
+    width: 40vmin;
+    height: 40vmin;
+    border-radius: 66% 34% 70% 30% / 40% 30% 70% 60% ;
+    transform: translate(70vw,50vh);
+    animation: Orange-Blue-Morph 15s linear infinite alternate;
+}
+
+#Red-Violet{
+    border-radius: 84% 16% 59% 41% / 21% 80% 20% 79% ;
+    background-image: linear-gradient(45deg, #ae2323 0%, rgb(255, 0, 242) 100%);
+    transform: translate(80vw,10vh);
+    animation: Red-Blue-Morph 10s linear infinite alternate;
 }

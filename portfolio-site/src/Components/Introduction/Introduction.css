@@ -3,6 +3,7 @@
     justify-content: center;
     background-color: #022333;
     height: 100vh;
+    width: 100vw;
     position: relative;
     animation: animate 7s;
 

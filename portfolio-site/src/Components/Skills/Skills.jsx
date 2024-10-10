@@ -30,7 +30,7 @@ export function Skills(){
                 </div>
             </div>
 
-            <div id="Blob-Container">
+            <div id="Blob-Container-Skills">
 
                 <div className="Blob" id="Yellow-Blue"></div>
 

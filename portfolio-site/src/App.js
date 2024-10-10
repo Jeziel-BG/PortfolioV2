@@ -1,10 +1,10 @@
 
 import './App.css';
-import { Introduction } from "./Components/Introduction/Introduction";
-import { Projects } from './Components/Projects/Projects';
-import { Skills } from "./Components/Skills/Skills";
-import { Education } from './Components/Education/Education';
-import { Contact } from './Components/Contact/Contact';
+import { Introduction } from "./components/Introduction/Introduction";
+import { Projects } from './components/Projects/Projects';
+import { Skills } from "./components/Skills/Skills";
+import { Education } from './components/Education/Education';
+import { Contact } from './components/Contact/Contact';
 
 
 function App() {
@@ -15,7 +15,8 @@ function App() {
       <Introduction />
       <Projects />
       <Skills />
-      <Education />
+      {//<<Education />
+      }
       <Contact />
 
       

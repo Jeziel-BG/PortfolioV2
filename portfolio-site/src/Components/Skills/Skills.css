@@ -95,13 +95,13 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     backdrop-filter: blur(20px);
 }
 
-#Blob-Container{
-    width: 100%;
+#Blob-Container-Skills{
+    width: 100vw;
     height: 100%;
     position: absolute;
     z-index: 0;
@@ -114,10 +114,6 @@
         height: 25vmin;
         background: #f09;
         position: absolute;
-        /*box-shadow: -10vmin 10vmin 0 rgba(255,255,255,0.07); <-- still deciding if to include*/
-        
-        
-    
 }
 
 #Yellow-Blue{
@@ -127,8 +123,6 @@
     width: 50vmin;
     height: 50vmin;
     transform: translate(30vw,35vh);
-
-
 }
 
 #Orange-Blue{

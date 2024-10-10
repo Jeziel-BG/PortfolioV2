@@ -1,8 +1,3 @@
 #Main{
   background-color: #022333;
 }
-
-#Intro-Proj-Gradient{
-  height: 3vh;
-  background-color: linear-gradient(to bottom, #022333, #031620);
-}

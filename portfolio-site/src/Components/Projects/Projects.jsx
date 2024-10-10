@@ -5,8 +5,8 @@ export function Projects(){
     return(
         <div id="Projects-Main">
             <div id="all">
-            <div id="Section-Header">
-                <h1>Projects</h1>
+            <div id="Header-Content">
+                <h1 id="Section-Header">Projects</h1>
             </div>
             <div id="Grid">
 
