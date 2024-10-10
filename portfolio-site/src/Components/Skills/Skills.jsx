@@ -1,4 +1,6 @@
-import "./Skills.css";
+import React from 'react';
+import styles from './Skills.css';
+
 
 export function Skills(){
     return(
@@ -34,16 +36,10 @@ export function Skills(){
 
                 <div className="Blob" id="Orange-Blue"></div>
 
-                {/*<div className="Blob" id="Red-Blue"></div>*/}
-
                 <div className="Blob" id="Blue-Yellow"></div>
 
                 <div className="Blob" id="Blue-Orange"></div>
-
-                {/*<div className="Blob" id="Blue-Red"></div>*/}
-
-                
-
+            
   
             </div>
             

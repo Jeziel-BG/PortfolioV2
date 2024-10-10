@@ -1,4 +1,4 @@
-import './Contact.css';
+import styles from './Contact.css';
 
 export function Contact(){
     return(
@@ -33,9 +33,17 @@ export function Contact(){
             </form>
 
 
-            <svg id="Background-Squares">
-                <rect width="10" height="10"  x="10" y="10" fill="white"/>
-            </svg>
+            <div id="Blob-Container">
+
+                <div className="Blob" id="Cyan-Blue"></div>
+
+                <div className="Blob" id="Orange-Blue"></div>
+
+                <div className="Blob" id="Blue-Yellow"></div>
+
+                <div className="Blob" id="Blue-Orange"></div>
+
+            </div>
 
 
         </div>
