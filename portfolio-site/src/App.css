@@ -1,3 +1,32 @@
 #Main{
-  background-color: #022333;
+  background-color: #1b1d1f;
 }
+
+.navbar{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  z-index: 4;
+  justify-content: center;
+  list-style: none;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar > li > button{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2vw;
+  background: #1b1d1f;
+  color: white;
+  width: 25vw;
+  border: none;
+  height: 5vh;
+
+}
+
+.navbar > li > button:hover{
+  background: linear-gradient(#1b1d1f, #a0e1d9);
+
+}
+

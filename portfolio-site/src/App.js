@@ -42,7 +42,7 @@ function App() {
   return (
     <div id="Main">
     
-      <div className="Site-Container" onScroll={hideNav}>
+      <div className="Site-Container">
         <ul id="nav" className="navbar">
           <li className="introduction">
             <button className='NavButton' onClick={() => scrollToSection(introduction)}> Introduction </button>
