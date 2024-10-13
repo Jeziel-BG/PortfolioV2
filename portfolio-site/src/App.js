@@ -3,7 +3,6 @@ import './App.css';
 import { Introduction } from "./components/Introduction/Introduction";
 import { Projects } from './components/Projects/Projects';
 import { Skills } from "./components/Skills/Skills";
-import { Education } from './components/Education/Education';
 import { Contact } from './components/Contact/Contact';
 import React, { useState } from "react";
 import { useRef } from "react";
@@ -21,23 +20,6 @@ function App() {
       behavior: "smooth",
     });
   };
-
-  const hideNav = () => {
-    const nav = document.getElementById("nav");
-
-    let lastScrollY = window.scrollY;
-    window.addEventListener("scroll", () => {
-      if (lastScrollY < window.scrollY) {
-        nav.classList.add("hidden");
-      } else {
-        nav.classList.remove("hidden");
-      }
-
-      lastScrollY = window.scrollY;
-    });
-  };
-
-  window.addEventListener("scroll", hideNav);
 
   return (
     <div id="Main">
