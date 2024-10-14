@@ -1,6 +1,6 @@
 #Contact-Main{
     background: #1b1d1f;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     justify-content: center;
     display: flex;
@@ -84,7 +84,7 @@
 
 
 #Blob-Container-Contact{
-    width: 100vw;
+    width: 100%;;
     height: 100vh ;
     position: absolute;
     z-index: 0;

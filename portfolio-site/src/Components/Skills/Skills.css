@@ -95,13 +95,13 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     backdrop-filter: blur(20px);
 }
 
 #Blob-Container-Skills{
-    width: 100vw;
+    width: 100%;
     height: 100%;
     position: absolute;
     z-index: 0;
@@ -146,7 +146,7 @@
     transform: translate(-15vw,-5vh);
     animation: Blue-Yellow-Morph 10s linear infinite alternate;
     width: 55vmin;
-    height: 110vmin;
+    height: 90vmin;
 }
 
 #Blue-Orange{

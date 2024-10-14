@@ -1,5 +1,6 @@
 #Main{
   background-color: #1b1d1f;
+  width: 100%;
 }
 
 .navbar{
@@ -9,9 +10,10 @@
   z-index: 4;
   justify-content: center;
   list-style: none;
-  width: 100vw;
+  width: 100%;
   padding: 0px;
   margin: 0px;
+  max-width: 100%;
 }
 
 .navbar > li > button{
@@ -19,7 +21,7 @@
   font-size: 1.2vw;
   background: #1b1d1f;
   color: white;
-  width: 25vw;
+  width: 24vw;
   border: none;
   height: 5vh;
 
