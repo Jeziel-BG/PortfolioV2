@@ -56,7 +56,7 @@ export function Projects(){
                             Contains an introduction, project showcase, education, skills, and contact form section.
                         </p>
                     </div>
-                    <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/portfolio', "_blank")}>View GitHub</button>
+                    <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/PortfolioV2', "_blank")}>View GitHub</button>
                 </div>
                 </div>
 

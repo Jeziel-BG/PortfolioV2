@@ -13,7 +13,6 @@
   width: 100%;
   padding: 0px;
   margin: 0px;
-  max-width: 100%;
 }
 
 .navbar > li > button{
@@ -21,7 +20,7 @@
   font-size: 1.2vw;
   background: #1b1d1f;
   color: white;
-  width: 24vw;
+  width: 25vw;
   border: none;
   height: 5vh;
 
