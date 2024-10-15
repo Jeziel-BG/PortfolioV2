@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Skills.css';
+import './Skills.css';
 
 
-export function Skills(){
+export default function Skills(){
     return(
         <div id="Skills-Main">
 

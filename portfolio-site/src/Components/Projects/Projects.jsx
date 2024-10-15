@@ -1,7 +1,7 @@
 import "./Projects.css"
 
 //NOTICE PROJECTS IN GITHUB ARE CURRENTLY PRIVATE,REMEMBER TO MAKE PUBLIC LATER
-export function Projects(){
+export default function Projects(){
     return(
         <div id="Projects-Main">
             <div id="all">

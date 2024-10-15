@@ -1,8 +1,8 @@
-import styles from './Contact.css';
+import './Contact.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export function Contact(){
+export default function Contact(){
 
     const form = useRef();
 

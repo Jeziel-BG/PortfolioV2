@@ -1,6 +1,6 @@
 import './Introduction.css';
 
-export function Introduction() {
+export default function Introduction() {
     return(
         <div id='Intro-Main'>
             <div id='Content'>
