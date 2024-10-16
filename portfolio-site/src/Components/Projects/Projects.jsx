@@ -12,7 +12,7 @@ export default function Projects(){
 
                 <div className="project-folder">
                     <div className="icon">
-                        <img className="icon-image" src="/images/python-logo.png"></img>
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/python-logo.png"></img>
                     </div>
 
                     <h1 className="project-title">Twitter Sentimental Analysis</h1>
@@ -30,7 +30,7 @@ export default function Projects(){
 
                 <div className="project-folder"> 
                     <div className="icon">
-                        <img className="icon-image" src="/images/java-logo.png"></img>
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/java-logo.png"></img>
                     </div>
                     <h1 className="project-title">Mock Arcade Database Design & Implementation</h1>
                     <div id="description">
@@ -47,7 +47,7 @@ export default function Projects(){
 
                 <div className="project-folder"> 
                     <div className="icon">
-                        <img className="icon-image" src="/images/react-logo.png"></img>
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/react-logo.png"></img>
                     </div>
                     <h1 className="project-title">Portfolio Website</h1>
                     <div id="description">

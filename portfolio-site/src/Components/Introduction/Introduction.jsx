@@ -22,7 +22,7 @@ export default function Introduction() {
                         <button className="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/jeziel-banos-gonzalez/', '_blank')}>
                         LinkedIn</button>
                         
-                        <button className="Resume" onClick={() => window.open('./documents/Resume-Jeziel_Banos_Gonzalez.pdf')}>
+                        <button className="Resume" onClick={() => window.open('https://jeziel-bg.github.io/PortfolioV2/documents/Resume-Jeziel_Banos_Gonzalez.pdf')}>
                         View Resume
                         </button>
                     </div>
@@ -30,7 +30,7 @@ export default function Introduction() {
 
                 </div>
                 <div id='Image-Container'>
-                    <img src= {process.env.PUBLIC_URL+ 'images/headshot.jpg'} alt='Headshot photo of Jeziel' id='HeadShot'></img>
+                    <img src= "https://jeziel-bg.github.io/PortfolioV2/images/headshot.jpg" alt='Headshot photo of Jeziel' id='HeadShot'></img>
                 </div>
             </div>
         </div>
