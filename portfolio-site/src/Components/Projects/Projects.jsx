@@ -1,6 +1,5 @@
 import "./Projects.css"
 
-//NOTICE PROJECTS IN GITHUB ARE CURRENTLY PRIVATE,REMEMBER TO MAKE PUBLIC LATER
 export default function Projects(){
     return(
         <div id="Projects-Main">
@@ -9,6 +8,23 @@ export default function Projects(){
                 <h1 id="Section-Header">Projects</h1>
             </div>
             <div id="Grid">
+
+
+                <div className="project-folder">
+                    <div className="icon">
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/HTML-logo.png"></img>
+                    </div>
+
+                    <h1 className="project-title">Tetris For Life!</h1>
+                    <div id="description">
+                        <p className="project-description">
+                            A collaboratively built website utilizing base HTML, CSS, and JavaScript displaying the complex and rich
+                            history of the game Tetris. The website features information about popular Tetris spin offs and the history
+                            of Tetris' rich competitive scene. (Group Project)
+                        </p>
+                    </div>
+                    <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/Sentiment_Analysis', "_blank")}>View GitHub</button>
+                </div>
 
                 <div className="project-folder">
                     <div className="icon">
