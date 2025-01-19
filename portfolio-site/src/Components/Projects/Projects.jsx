@@ -23,7 +23,7 @@ export default function Projects(){
                             of Tetris' rich competitive scene. (Group Project)
                         </p>
                     </div>
-                    <button className="project-button" onClick={() => window.open('https://github.com/JezielBG-UofA/Tetris-Website/tree/main', "_blank")}>View GitHub</button>
+                    <button className="project-button" onClick={() => window.open('https://tetris-for-life.netlify.app/', "_blank")}>Visit Website</button>
                 </div>
 
                 <div className="project-folder">
