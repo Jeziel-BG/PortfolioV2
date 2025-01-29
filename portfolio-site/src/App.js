@@ -1,9 +1,9 @@
 
 import './App.css';
-import Introduction from "./components/Introduction/Introduction.jsx";
-import Projects from './components/Projects/Projects.jsx';
-import Skills from "./components/Skills/Skills.jsx";
-import Contact from './components/Contact/Contact.jsx';
+import Introduction from "./Components/Introduction/Introduction.jsx";
+import Projects from './Components/Projects/Projects.jsx';
+import Skills from "./Components/Skills/Skills.jsx";
+import Contact from './Components/Contact/Contact.jsx';
 import React, { useState } from "react";
 import { useRef } from "react";
 
