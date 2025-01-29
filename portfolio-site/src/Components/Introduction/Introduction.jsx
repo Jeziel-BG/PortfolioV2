@@ -22,7 +22,7 @@ export default function Introduction() {
                         <button className="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/jeziel-banos-gonzalez/', '_blank')}>
                         LinkedIn</button>
                         
-                        <button className="Resume" onClick={() => window.open('https://jeziel-bg.github.io/PortfolioV2/documents/Resume-Jeziel_Banos_Gonzalez.pdf')}>
+                        <button className="Resume" onClick={() => window.open('https://jeziel-bg.github.io/PortfolioV2/portfolio-site/public/documents/Resume-Jeziel_Banos_Gonzalez.pdf')}>
                         View Resume
                         </button>
                     </div>
