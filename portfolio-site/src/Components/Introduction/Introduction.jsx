@@ -9,13 +9,13 @@ export default function Introduction() {
                         <span>Hi, I'm Jeziel Banos Gonzalez</span>
                     </h1>
                     <h1 id='Bottom-Header'>
-                        <span id='Typewriter'>Full-Stack Developer</span>
+                        <span id='Typewriter'>Software Developer</span>
                     </h1>
                     
                     <div id='Description'>
-                    <p>I'm an aspiring Full-Stack Developer working towards 
-                        completing my Bachelor's of Science in Computer Science 
-                        at the University of Arizona</p>
+                    <p>I'm a University of Arizona Alumni and an aspiring Software Developer looking for entry-level employment. During my free time I enjoy working with code to solve 
+                        problems.  
+                    </p>
                     </div>
                     
                     <div id='Buttons'>
