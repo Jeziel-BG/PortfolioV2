@@ -9,6 +9,21 @@ export default function Projects(){
             </div>
             <div id="Grid">
 
+                <div className="project-folder">
+                    <div className="icon">
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/python-logo.png"></img>
+                    </div>
+
+                    <h1 className="project-title">Music IR System</h1>
+                    <div id="description">
+                        <p className="project-description">
+                            A collaboratively built Information Retrieval System for music. The system supports queries on artist name, album name, track name, and genre.
+                            The system will return the top 10 best matching songs / tracks based on the provided query from the user. The system prioritizes matching the 
+                            query portions in the following order: track name, artist name, album name, genre. 
+                        </p>
+                    </div>
+                    <button className="project-button" onClick={() => window.open('https://github.com/JezielBG-UofA/Music_IR_CSC_483', "_blank")}>View GitHub</button>
+                </div>
 
                 <div className="project-folder">
                     <div className="icon">
@@ -26,12 +41,26 @@ export default function Projects(){
                     <button className="project-button" onClick={() => window.open('https://tetris-for-life.netlify.app/', "_blank")}>Visit Website</button>
                 </div>
 
+                <div className="project-folder"> 
+                    <div className="icon">
+                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/react-logo.png"></img>
+                    </div>
+                    <h1 className="project-title">Portfolio Website</h1>
+                    <div id="description">
+                        <p className="project-description">
+                            A portfolio website developed using HTML5, CSS, React Native, and JavaScript.
+                            Contains an introduction, project showcase, education, skills, and contact form section.
+                        </p>
+                    </div>
+                    <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/PortfolioV2', "_blank")}>View GitHub</button>
+                </div>
+
                 <div className="project-folder">
                     <div className="icon">
                         <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/python-logo.png"></img>
                     </div>
 
-                    <h1 className="project-title">Twitter Sentimental Analysis</h1>
+                    <h1 className="project-title">Sentimental Analysis</h1>
                     <div id="description">
                         <p className="project-description">
                             A collection of Machine Learning models trained on the same Twitter dataset
@@ -48,7 +77,7 @@ export default function Projects(){
                     <div className="icon">
                         <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/java-logo.png"></img>
                     </div>
-                    <h1 className="project-title">Mock Arcade Database Design & Implementation</h1>
+                    <h1 className="project-title">Arcade DB Design & Implementation</h1>
                     <div id="description">
                         <p className="project-description">
                             A collaboratively built java program utilizing JDBC to connect to an Oracle SQL Database 
@@ -61,19 +90,7 @@ export default function Projects(){
 
             
 
-                <div className="project-folder"> 
-                    <div className="icon">
-                        <img className="icon-image" src="https://jeziel-bg.github.io/PortfolioV2//images/react-logo.png"></img>
-                    </div>
-                    <h1 className="project-title">Portfolio Website</h1>
-                    <div id="description">
-                        <p className="project-description">
-                            A portfolio website developed using HTML5, CSS, React Native, and JavaScript.
-                            Contains an introduction, project showcase, education, skills, and contact form section.
-                        </p>
-                    </div>
-                    <button className="project-button" onClick={() => window.open('https://github.com/Jeziel-BG/PortfolioV2', "_blank")}>View GitHub</button>
-                </div>
+                
                 </div>
 
             
